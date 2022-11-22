@@ -1,6 +1,15 @@
 /*
     Mobile Menu Core Style
 */
+.slicknav_menu {
+	display:none;
+}
+#mobile_menu{
+	display:none;
+}
+#mobile_menu{
+	display:block;
+}
 
 .slicknav_btn {
 	position: relative;
@@ -68,6 +77,7 @@
 .slicknav_menu {
 *zoom: 1
 }
+
 /* 
     User Default Style
     Change the following styles to modify the appearance of the menu.
