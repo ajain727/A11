@@ -42,7 +42,7 @@ header h3 {
 }
 header img {
 	float: left;
-	padding: 0 30px;
+	padding: 0 3.75%;
 }
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
@@ -56,7 +56,7 @@ header img {
 }
 #nav_menu ul li {
 	float: left;
-	width: 13.334%;
+	width: 20%;
 
 }
 #nav_menu ul li a {
@@ -93,7 +93,7 @@ header img {
 section {
 	width: 65.625%;
 	float: right;
-	padding: 0 2.5% 20px;
+	padding: 0 2.5% 20px 2.5%;
 }
 section h1 {
 	font-size: 150%;
@@ -124,7 +124,7 @@ section li {
 	section h1{
 		font-size: 135%;
 	}
-	section h2{
+	section h2, aside h2{
 		font-size:120%;
 	}
 }
@@ -147,9 +147,18 @@ section li {
 
 		/*width*/
 	}
+	body{
+		font-size:90%;
+	}
 }
 /* media query for mobile landscape layout*/
 @media only screen and (max-width:767px){
+	#nav_menu{
+		display: none;
+	}
+	#mobile_menu{
+		display: block;
+	}
 	#header_img{
 		float: none;
 	}
@@ -158,8 +167,8 @@ section li {
 	}
 	section{
 		float: none;
-		padding-right: 2.84%;
-		width:94.32%;
+		/*padding-right: 2.84%;*/
+		width:95%;
 	}
 	section h1{
 		font-size: 125%;
@@ -172,8 +181,8 @@ section li {
 	}
 	aside{
 		float:none;
-		padding-right:2.84%;
-		width:94.32%;
+		padding-right:2.5%;
+		width:95%;
 	}
 	aside h2 a{
 		font-size:85% ;}
@@ -182,14 +191,10 @@ section li {
 		-webkit-column-count: 2;
 		column-count: 2;
 	}
-	.js#menu{
-		display: none;
-	}
-	.js.slicknav_menu{
-		display: block;
-	}
+
 	.slicknav_menu{
 		background-color: #800000 !important;
+		display: block !important;
 	}
 }
 /*
